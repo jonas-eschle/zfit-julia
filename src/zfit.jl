@@ -1,5 +1,17 @@
 module zfit
+"""
+Hello world greeting.
 
-greet() = print("Hello World!")
+# Arguments
+    None
+
+# Examples
+```julia
+greet()
+```
+"""
+function greet()
+    print("Hello World!")
+end
 
 end # module
